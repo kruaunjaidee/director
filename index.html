@@ -101,15 +101,25 @@
   "body": {
     "type": "box",
     "layout": "vertical",
-    "spacing": "md",
     "contents": [
       {
         "type": "image",
-        "url": "https://sv1.picz.in.th/images/2023/01/03/JUsP0k.png",
+        "url": "https://res.cloudinary.com/dtdyrr6q4/image/upload/v1673161512/ezgif.com-gif-maker_2_jtqqyh.png",
         "size": "full",
-        "aspectRatio": "20:13",
         "aspectMode": "cover",
-        "animated": true
+        "animated": true,
+        "aspectRatio": "9:14"
+      },
+      {
+        "type": "text",
+        "text": "โรงเรียนแกลง\"วิทยสถาวร\"",
+        "size": "xl",
+        "color": "#ffffff",
+        "align": "center",
+        "position": "absolute",
+        "gravity": "top",
+        "offsetTop": "30px",
+        "offsetStart": "30px"
       },
       {
         "type": "box",
@@ -117,63 +127,26 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://sv1.picz.in.th/images/2023/01/03/JUrgQI.png",
-            "size": "full",
-            "position": "absolute",
+            "url": "https://res.cloudinary.com/dtdyrr6q4/image/upload/v1673161857/111_altftt.jpg",
+            "size": "4xl",
+            "aspectRatio": "8:10",
             "aspectMode": "cover",
-            "flex": 5
+            "position": "relative"
           }
         ],
-        "width": "150px",
-        "height": "150px",
-        "cornerRadius": "150px",
         "position": "absolute",
-        "offsetStart": "80px",
-        "borderWidth": "3px",
-        "borderColor": "#99ccff",
-        "offsetTop": "25px"
-      },
-      {
-        "type": "text",
-        "text": "ครูอั๋น ใจดี",
-        "size": "lg",
-        "weight": "bold",
-        "margin": "10px",
-        "align": "center",
-        "color": "#ffffff"
+        "cornerRadius": "150px",
+        "alignItems": "flex-end",
+        "justifyContent": "flex-end",
+        "offsetTop": "70px",
+        "offsetStart": "45px",
+        "borderWidth": "5px",
+        "borderColor": "#8A2BE2"
       },
       {
         "type": "box",
-        "layout": "vertical",
-        "spacing": "sm",
+        "layout": "horizontal",
         "contents": [
-          {
-            "type": "box",
-            "layout": "baseline",
-            "contents": [
-              {
-                "type": "text",
-                "text": "📲 กดเบอร์",
-                "weight": "bold",
-                "margin": "sm",
-                "flex": 0,
-                "color": "#ffffff"
-              },
-              {
-                "type": "text",
-                "text": "โทร : 09-5250-8587",
-                "align": "end",
-                "color": "#daff7d",
-                "weight": "bold",
-                "action": {
-                  "type": "uri",
-                  "label": "action",
-                  "uri": "tel:0952508587"
-                },
-                "gravity": "bottom"
-              }
-            ]
-          },
           {
             "type": "box",
             "layout": "vertical",
@@ -183,136 +156,111 @@
                 "layout": "vertical",
                 "contents": [
                   {
-                    "type": "filler"
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "กดปุ่มเพื่อโทร 081-7611551",
+                        "size": "lg",
+                        "color": "#ffffff",
+                        "align": "center",
+                        "action": {
+                          "type": "uri",
+                          "label": "action",
+                          "uri": "tel:081-7611551"
+                        },
+                        "style": "normal",
+                        "adjustMode": "shrink-to-fit"
+                      }
+                    ],
+                    "cornerRadius": "20px",
+                    "backgroundColor": "#4B0082",
+                    "position": "relative",
+                    "justifyContent": "center"
                   }
                 ],
-                "width": "100%",
-                "backgroundColor": "#daff7d",
-                "height": "6px"
-              }
-            ],
-            "backgroundColor": "#FAD2A76E",
-            "height": "2px",
-            "margin": "sm"
-          },
-          {
-            "type": "box",
-            "layout": "baseline",
-            "contents": [
-              {
-                "type": "text",
-                "text": "✅ ติดต่อ LINE",
-                "weight": "bold",
-                "margin": "sm",
-                "flex": 0,
-                "color": "#ffffff"
+                "spacing": "xs",
+                "backgroundColor": "#4B0082",
+                "cornerRadius": "20px"
               },
-              {
-                "type": "text",
-                "text": "ไอดี : kruaun_jaidee",
-                "align": "end",
-                "color": "#daff7d",
-                "weight": "bold",
-                "action": {
-                  "type": "uri",
-                  "label": "action",
-                  "uri": "http://line.me/ti/p/~kruaun_jaidee"
-                },
-                "gravity": "center",
-                "wrap": true,
-                "margin": "xs"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
               {
                 "type": "box",
                 "layout": "vertical",
                 "contents": [
                   {
-                    "type": "filler"
+                    "type": "text",
+                    "text": "นางอัญชลี  อิสสรารักษ์",
+                    "size": "lg",
+                    "color": "#ffffff",
+                    "align": "center"
                   }
                 ],
-                "width": "100%",
-                "backgroundColor": "#daff7d",
-                "height": "6px"
-              }
-            ],
-            "backgroundColor": "#FAD2A76E",
-            "height": "2px",
-            "margin": "sm"
-          }
-        ]
-      },
-      {
-        "type": "text",
-        "text": "กรุณาติดต่อครูให้เป็นเวลา ไม่เกิน 20.00 น.",
-        "wrap": true,
-        "color": "#00ff00",
-        "size": "sm",
-        "align": "center"
-      },
-      {
-        "type": "text",
-        "text": "🛗 ติดต่อครูทาง Messenger",
-        "color": "#ffffff",
-        "align": "center",
-        "size": "md",
-        "gravity": "center",
-        "margin": "lg",
-        "action": {
-          "type": "uri",
-          "label": "action",
-          "uri": "https://www.m.me/kruaunjaidee"
-        }
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
+                "cornerRadius": "20px",
+                "backgroundColor": "#4B0082",
+                "position": "relative",
+                "justifyContent": "center",
+                "offsetBottom": "3px",
+                "offsetTop": "1px"
+              },
               {
-                "type": "filler"
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "cornerRadius": "20px",
+                    "backgroundColor": "#4B0082",
+                    "position": "relative",
+                    "justifyContent": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "แชร์นามบัตร",
+                            "size": "xl",
+                            "color": "#ffffff",
+                            "align": "center",
+                            "action": {
+                              "type": "uri",
+                              "label": "action",
+                              "uri": "https://liff.line.me/1657800329-8mblJg65"
+                            }
+                          }
+                        ],
+                        "cornerRadius": "20px",
+                        "backgroundColor": "#cc99ff",
+                        "position": "relative",
+                        "justifyContent": "center"
+                      }
+                    ],
+                    "spacing": "md"
+                  }
+                ],
+                "spacing": "xs"
               }
             ],
-            "width": "100%",
-            "backgroundColor": "#daff7d",
-            "height": "6px"
+            "spacing": "xs"
           }
         ],
-        "backgroundColor": "#FAD2A76E",
-        "height": "6px",
-        "margin": "sm"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "button",
-            "style": "primary",
-            "color": "#000099",
-            "action": {
-              "type": "uri",
-              "label": "📣 แชร์นามบัตร 📣",
-              "uri": "https://liff.line.me/1657785803-6yOYkOKM"
-            },
-            "height": "sm"
-          }
-        ],
-        "maxWidth": "190px",
-        "offsetStart": "50px",
-        "margin": "lg"
+        "position": "absolute",
+        "offsetBottom": "0px",
+        "offsetStart": "0px",
+        "offsetEnd": "0px",
+        "cornerRadius": "20px",
+        "paddingAll": "30px"
       }
     ],
-    "paddingAll": "10px",
-    "backgroundColor": "#0000ff"
+    "paddingAll": "0px"
   }
 }
 //ปิด bubble
@@ -342,7 +290,7 @@
       window.location.reload()
     }
     async function main() {
-      await liff.init({ liffId: "1657785803-6yOYkOKM" })
+      await liff.init({ liffId: "1657800329-8mblJg65" })
       if (liff.isLoggedIn()) {
         document.getElementById("btnShare").style.display = "block"
         if (!liff.isInClient()) {
